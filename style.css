@@ -128,22 +128,21 @@ section#sobre{
     margin-top: 50px;
     width: 50px;
     
+}
 
-}
-oluna-1{
-    width: 10%;
-}
 
 .coluna-2{
-width: 20%;
+    
+width: 10%;
 }
 
 .coluna-3{
-width: 30%;
+width: 20%;
 }
 
 
 .linha{
+    margin-left: 500px;
     display: flex;
     display: -webkit-flex; 
     
