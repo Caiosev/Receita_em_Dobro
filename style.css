@@ -30,9 +30,9 @@ body{
     top: 0;
     z-index: 1;
     display: flex;
-    width: 99%;
+    width: 98.5%;
     height:60px;
-    background:rgba(247, 217, 137, 0.7)
+    background:rgba(247, 217, 137, 0.9)
 
 }
 
@@ -91,26 +91,25 @@ section#inicio{
 
 section#cal{
     
-    align-items: center;
-    justify-content: left;
-    text-align: top;
-
     background: url(imagens/background_2.jpg) no-repeat center center/cover;
 
 }
 
 section#cal h1{
-    
-   margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
 
 }
-section#cal label{
+section#cal p{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+    
 
-
-    display: block;
-    margin-bottom: 4px;
-
- }
+}
 section#res{
     background: url(imagens/background_4.jpg)no-repeat center center/cover;
 }
@@ -130,4 +129,27 @@ section#sobre{
     width: 50px;
     
 
+}
+oluna-1{
+    width: 10%;
+}
+
+.coluna-2{
+width: 20%;
+}
+
+.coluna-3{
+width: 30%;
+}
+
+
+.linha{
+    display: flex;
+    display: -webkit-flex; 
+    
+}
+
+.alinhamento{
+  text-align: right;
+  margin-right: 1vw;
 }
