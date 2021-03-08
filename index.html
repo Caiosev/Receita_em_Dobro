@@ -9,10 +9,7 @@
     <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
 </head>
 <body>
-    <script
-    src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <div class="container">
         <nav class="navbar">
             <ul>
@@ -30,22 +27,17 @@
         </section>
         <section id="cal">
             <h1>Calculadora</h1>
-            <p>Coloque abaixo todos os ingrediente da sua receita.</p>
-            <p>Depois selecione a quantidade que você deseja</p>
             <div class="linha">
                 <label class="coluna-2 alinhamento">
                   Quantidade
                 </label>
                 <input type="text" class="coluna-2" placeholder="Apenas números">
-
                 <label class="coluna-3 alinhamento">
                   Produto
                 </label>
-                <input class="coluna-3" type="text">      
-                <img src="imagens/plus.png">
+                <input class="coluna-3" type="text">    
+                <input type="image" id="plus" src="imagens/plus.png">
               </div>
-             
-
         </section>
 
         <section id="res" class="hidden">
@@ -53,9 +45,12 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quia reprehenderit commodi voluptate illo vitae.</p>
         </section>
         <section id="sobre">
+            <div id=bgsobre>
             <h1>Sobre</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quia reprehenderit commodi voluptate illo vitae.</p>
+            </div>
         </section>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
