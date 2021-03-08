@@ -1,5 +1,5 @@
 
-    var scntDiv = $('#cal');
+    var scntDiv = $('#campocal');
     var qntd = 0;
     var check = 0;
 
@@ -25,9 +25,7 @@
         return false;
     }else if (qntd >= 9 && check == 0 ) {
             $(
-                '<p id="erro">'+
-                'Numero max de Produtos Atingidos'+
-                '</p>'
+                window.alert("Numero max de Produtos Atingidos")
                 
             ).appendTo(scntDiv);  
             check++;
