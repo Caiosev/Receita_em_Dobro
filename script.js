@@ -5,7 +5,7 @@
 
     
      $(document).on('click', '#plus', function () {
-        if (qntd < 10 && check == 0 ){
+        if (qntd < 9 && check == 0 ){
         $(
             '<div class="linha">'+
             '<label class="coluna-2 alinhamento">'+
@@ -23,7 +23,7 @@
         console.log(qntd)
         console.log(check)
         return false;
-    }else if (qntd >= 10 && check == 0 ) {
+    }else if (qntd >= 9 && check == 0 ) {
             $(
                 '<p id="erro">'+
                 'Numero max de Produtos Atingidos'+
