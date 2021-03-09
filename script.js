@@ -1,5 +1,3 @@
-
- 
     var scntDiv = $('#campocal');
     var qntd = 0;
     var check = 0;
@@ -41,7 +39,25 @@
     }});
 
     function metade(){
+       
+        var qntdades = [];
+        var q1 = document.querySelector(".coluna-2-1");
+        var q = document.querySelector("input.coluna-2");
+        if (q1.value.length < 1){
+            alert("Digite a quantidade do produto")
+            q1.focus();
+        }else{
+        qntdades[0]=(parseInt(q1.value));
+        qntdades.push(parseInt(q.value));
+        console.log(qntdades);
+        for (var i=0; i < qntdades.length; i++){
+            qntdades[i] = 2 * qntdades[i];
+        }
+        console.log(qntdades);
+    
         document.getElementById('res').style.display = "block";
+    }
+
     }
     function dobrar(){
         document.getElementById('res').style.display = "block";
