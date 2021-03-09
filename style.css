@@ -280,3 +280,8 @@ section#sobre h1{
     border: none;
     outline: none;
 }
+
+section#res h1{
+    text-align: center;
+    padding:50px;
+}

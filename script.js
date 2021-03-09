@@ -1,4 +1,5 @@
 
+ 
     var scntDiv = $('#campocal');
     var qntd = 0;
     var check = 0;
@@ -38,4 +39,14 @@
     }else{
         
     }});
+
+    function metade(){
+        document.getElementById('res').style.display = "block";
+    }
+    function dobrar(){
+        document.getElementById('res').style.display = "block";
+    }
+    function triplicar(){
+        document.getElementById('res').style.display = "block";
+    }
 
