@@ -40,18 +40,18 @@
     function metade(){
        
         var qntdades = [];
-        for (var i=0; i < 9; i++){
-        var qp = document.querySelector(".coluna-2");
-        var q0 = document.querySelector(".coluna-2-"+i);
-        var q1 = document.querySelector(".coluna-2-"+i);
-        var q2 = document.querySelector(".coluna-2-"+i);
-        var q3 = document.querySelector(".coluna-2-"+i);
-        var q4 = document.querySelector(".coluna-2-"+i);
-        var q5 = document.querySelector(".coluna-2-"+i);
-        var q6 = document.querySelector(".coluna-2-"+i);
-        var q7 = document.querySelector(".coluna-2-"+i);
-        var q8 = document.querySelector(".coluna-2-"+i);
-        if (qp.value.length < 1){
+        var qp = document.querySelector("input.coluna-2");
+        var q0 = document.querySelector("input.coluna-2-0");
+        var q1 = document.querySelector("input.coluna-2-1");
+        var q2 = document.querySelector("input.coluna-2-2");
+        var q3 = document.querySelector("input.coluna-2-3");
+        var q4 = document.querySelector("input.coluna-2-4");
+        var q5 = document.querySelector("input.coluna-2-5");
+        var q6 = document.querySelector("input.coluna-2-6");
+        var q7 = document.querySelector("input.coluna-2-7");
+        var q8 = document.querySelector("input.coluna-2-8");
+        
+        if (qp.value == ""){
             alert("Digite a quantidade do produto")
             qp.focus();
         }else{
@@ -74,7 +74,7 @@
     
         document.getElementById('res').style.display = "block";
     }
-        }
+        
     }
     function dobrar(){
         document.getElementById('res').style.display = "block";
