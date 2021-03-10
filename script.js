@@ -37,7 +37,7 @@
         
     }});
 
-    function metade(){
+    function dobrar(){
        
         var qntdades = [];
         var qp = document.querySelector("input.coluna-2");
@@ -56,39 +56,39 @@
             qp.focus();
         }else{
         qntdades[0]=(parseInt(qp.value));
-            if (!q0.value == "")
+            if (!(q0=="null") && !q0== "")
             {
                 qntdades.push(parseInt(q0.value));
             }
-            if (!q1.value == "")
+            if (!(q1=="null") && !q1== "")
             {
                 qntdades.push(parseInt(q1.value));
             }
-            if (!q2.value == "")
+            if (!(q2=="null") && !q2== "")
             {
                 qntdades.push(parseInt(q2.value));
             }
-            if (!q3.value == "")
+            if (!(q3=="null") && !q3== "")
             {
                 qntdades.push(parseInt(q3.value));
             }
-            if (!q4.value == "")
+            if (!(q4=="null") && !q4== "")
             {
                 qntdades.push(parseInt(q4.value));
             }
-            if (!q5.value == "")
+            if (!(q5=="null") && !q5== "")
             {
-                qntdades.push(parseInt(q5.value));
+                qntdades.push(parseInt(q5.value))
             }
-            if (!q6.value == "")
+            if (!(q6=="null") && !q6== "")
             {
                 qntdades.push(parseInt(q6.value));
             }
-            if (!q7.value == "")
+            if (!(q7=="null") && !q7== "")
             {
                 qntdades.push(parseInt(q7.value));
             }
-            if (!q8.value == "")
+            if (!(q8=="null") && !q8== "")
             {
                 qntdades.push(parseInt(q8.value));
             }
@@ -99,13 +99,13 @@
         console.log(qntdades);
     
         document.getElementById('res').style.display = "block";
+
+        $(
+            '<h2>'+qntdades+'<h2>'
+            
+        ).appendTo(res);
     }
         
     }
-    function dobrar(){
-        document.getElementById('res').style.display = "block";
-    }
-    function triplicar(){
-        document.getElementById('res').style.display = "block";
-    }
+    
     
