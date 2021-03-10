@@ -198,16 +198,56 @@ height:1.5rem;
                                     }
 
 .coluna-3{
-width: 20%;
-margin-right: 2rem;
-height:1.5rem;
+    width: 20%;
+    height:1.5rem;
+    margin-left:45px;
 }
-
-.coluna-3-1{
+.coluna-3-0{
     width: 20%;
     height:1.5rem;
     margin-left:45px;
     }
+    .coluna-3-1{
+        width: 20%;
+        height:1.5rem;
+        margin-left:45px;
+        }
+        .coluna-3-2{
+            width: 20%;
+            height:1.5rem;
+            margin-left:45px;
+            }
+            .coluna-3-3{
+                width: 20%;
+                height:1.5rem;
+                margin-left:45px;
+                }
+                .coluna-3-4{
+                    width: 20%;
+                    height:1.5rem;
+                    margin-left:45px;
+                    }
+                    .coluna-3-5{
+                        width: 20%;
+                        height:1.5rem;
+                        margin-left:45px;
+                        }
+                        .coluna-3-6{
+                            width: 20%;
+                            height:1.5rem;
+                            margin-left:45px;
+                            }
+                            .coluna-3-7{
+                                width: 20%;
+                                height:1.5rem;
+                                margin-left:45px;
+                                }
+                                .coluna-3-8{
+                                    width: 20%;
+                                    height:1.5rem;
+                                    margin-left:45px;
+                                    }
+
 
 .linha{
     align-content: center;
