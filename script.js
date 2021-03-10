@@ -50,22 +50,48 @@
         var q6 = document.querySelector("input.coluna-2-6");
         var q7 = document.querySelector("input.coluna-2-7");
         var q8 = document.querySelector("input.coluna-2-8");
-        
+
         if (qp.value == ""){
             alert("Digite a quantidade do produto")
             qp.focus();
         }else{
         qntdades[0]=(parseInt(qp.value));
-        qntdades.push(parseInt(q0.value));
-        qntdades.push(parseInt(q1.value));
-        qntdades.push(parseInt(q2.value));
-        qntdades.push(parseInt(q3.value));
-        qntdades.push(parseInt(q4.value));
-        qntdades.push(parseInt(q5.value));
-        qntdades.push(parseInt(q6.value));
-        qntdades.push(parseInt(q7.value));
-        qntdades.push(parseInt(q8.value));
-
+            if (!q0.value == "")
+            {
+                qntdades.push(parseInt(q0.value));
+            }
+            if (!q1.value == "")
+            {
+                qntdades.push(parseInt(q1.value));
+            }
+            if (!q2.value == "")
+            {
+                qntdades.push(parseInt(q2.value));
+            }
+            if (!q3.value == "")
+            {
+                qntdades.push(parseInt(q3.value));
+            }
+            if (!q4.value == "")
+            {
+                qntdades.push(parseInt(q4.value));
+            }
+            if (!q5.value == "")
+            {
+                qntdades.push(parseInt(q5.value));
+            }
+            if (!q6.value == "")
+            {
+                qntdades.push(parseInt(q6.value));
+            }
+            if (!q7.value == "")
+            {
+                qntdades.push(parseInt(q7.value));
+            }
+            if (!q8.value == "")
+            {
+                qntdades.push(parseInt(q8.value));
+            }
         console.log(qntdades);
         for (var i=0; i < qntdades.length; i++){
             qntdades[i] = 2 * qntdades[i];
