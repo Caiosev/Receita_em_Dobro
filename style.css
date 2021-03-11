@@ -30,7 +30,7 @@ body{
     top: 0;
     z-index: 1;
     display: flex;
-    width: 100%;
+    width: 98.9%;
     height:60px;
     background:rgba(247, 217, 137, 0.9)
 
@@ -85,13 +85,16 @@ section#inicio{
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: url(imagens/background_1.jpg) no-repeat center center/cover;
+    background: url(imagens/background_1.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 
 }
 
 section#cal{
     
     background: url(imagens/background_2.jpg) no-repeat center center/cover;
+    
 
 }
 
@@ -200,7 +203,7 @@ height:1.5rem;
 .coluna-3{
     width: 20%;
     height:1.5rem;
-    margin-left:30px;
+    margin-left:46px;
 }
 .coluna-3-0{
     width: 20%;
@@ -274,7 +277,7 @@ height:1.5rem;
 
 .alinhamento-2{
     text-align: right;
-    margin-left: 75px;
+    margin-left: 45px;
     
   }
 #erro{

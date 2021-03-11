@@ -12,11 +12,11 @@
             '<label class="coluna-2 alinhamento">'+
             'Quantidade'+
             '</label>'+
-            '<input type="text" class="coluna-2-'+qntd+'" alinhamento placeholder="Apenas números">'+
+            '<input type="text" class="coluna-2-'+qntd+'"  placeholder="Apenas números">'+
             '<label class="coluna-3 alinhamento">'+
             'Produto'+
             '</label>'+
-            '<input class="coluna-3-'+qntd+' alinhamento" type="text">'+
+            '<input class="coluna-3-'+qntd+' " type="text">'+
             '</div>'
             
         ).appendTo(scntDiv);
@@ -141,7 +141,7 @@
     }
     
     function triplicar(){
-        document.getElementById('resultados').remove()
+      
        
         var qntdades = [];
         var produto = [];
@@ -243,9 +243,7 @@
     }
 
     function quadriplicar(){
-       
-        document.getElementById('resultados').remove()
-        
+               
         var qntdades = [];
         var produto = [];
         var qp = document.querySelector("input.coluna-2");
